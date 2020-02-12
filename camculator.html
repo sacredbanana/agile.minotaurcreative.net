@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="cameronstyle.css">
+	<title>Cameron's Camculator!</title>
+</head>
+<body>
+	<h1 id="headline">Camculator!</h1>
+	<br>
+	<div id="camculatorbuttons">
+		<button class="calculatebutton" onclick="calculateStandard()">Camculate using standard method!</button>
+		<button class="calculatebutton" onclick="calculateStack()">Camculate using stack!</button>
+	</div>
+	<br>
+	<table class="outputtable">
+		<tr>
+			<th>Input Stack</th><th>Preorder Stack</th>
+		</tr>
+		<tr>
+			<td><p id="table1left"></p></td><td><p id="table1right"></td>
+		</tr>
+	</table>
+	<br>
+	<table class="outputtable">
+		<tr>
+			<th>Preorder Stack</th><th>Answer Stack</th>
+		</tr>
+		<tr>
+			<td><p id="table2left"></p></td><td><p id="table2right"></td>
+		</tr>
+	</table>
+	
+	<h3 id="parsedoutput"></h3>
+	
+	<script src="camculator.js"></script>
+</body>
+</html>
